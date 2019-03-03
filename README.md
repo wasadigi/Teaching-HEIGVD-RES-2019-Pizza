@@ -6,7 +6,7 @@
 * Attention: chaque PR doit contenir uniquement les 2 fichiers spécifique à la feature (classe de prod + classe de test)
 
 ## QCM (~ 5 minutes)
-* Remplissez le formulaire suivant
+* Remplissez [ce formulaire](https://goo.gl/forms/WOPo5OINYKQ32Xbv1)
 
 ## Evaluation
 
