@@ -14,9 +14,9 @@ class RacletteTest {
 
   @Test
   void thePriceAndNameForRacletteShouldBeCorrect() {
-    Margherita beer = new Margherita();
-    assertEquals(beer.getName(), Margherita.NAME);
-    assertEquals(beer.getPrice(), Margherita.PRICE);
+    Raclette pizza = new Raclette();
+    assertEquals(pizza.getName(), Raclette.NAME);
+    assertEquals(pizza.getPrice(), Raclette.PRICE);
   }
 
   @Test
