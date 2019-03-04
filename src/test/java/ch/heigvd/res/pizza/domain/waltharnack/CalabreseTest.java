@@ -13,7 +13,7 @@ class CalabreseTest {
 
   @Test
   void thePriceAndNameForCalabreseShouldBeCorrect() {
-    Margherita pizza = new Calabrese();
+    Calabrese pizza = new Calabrese();
     assertEquals(pizza.getName(), Calabrese.NAME);
     assertEquals(pizza.getPrice(), Calabrese.PRICE);
   }
