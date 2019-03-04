@@ -1,6 +1,6 @@
 package ch.heigvd.res.pizza.domain.andresMoreno96;
 
-import ch.heigvd.res.pizza.domain.ANDY;
+import ch.heigvd.res.pizza.domain.andresMoreno96.ANDY;
 import ch.heigvd.res.pizza.protocol.GreetingsRequest;
 import ch.heigvd.res.pizza.protocol.GreetingsResponse;
 import org.junit.jupiter.api.Test;
