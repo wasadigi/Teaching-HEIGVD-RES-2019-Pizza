@@ -1,4 +1,4 @@
-package ch.heigvd.res.pizza.domain.jzaerin;
+package ch.heigvd.res.pizza.domain.jzaehrin;
 
 import ch.heigvd.res.pizza.domain.IProduct;
 
