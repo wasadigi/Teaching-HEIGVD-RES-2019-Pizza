@@ -6,11 +6,14 @@ import java.math.BigDecimal;
 
 public class Calabres implements IProduct {
 
+    public final static String NAME = "Calabres Pizza";
+    public final static BigDecimal PRICE = new BigDecimal(14.2);
+
     public String getName() {
-        return "Calabres Pizza";
+        return NAME;
     }
 
     public BigDecimal getPrice(){
-        return 14.2;
+        return PRICE;
     }
 }
