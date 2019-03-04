@@ -6,8 +6,8 @@ import java.math.BigDecimal;
 
 public class Vege implements IProduct {
 
-  public final static String NAME = "Margherita";
-  public final static BigDecimal PRICE = new BigDecimal(16.0);
+  public final static String NAME = "Vege";
+  public final static BigDecimal PRICE = new BigDecimal(14.0);
 
   @Override
   public String getName() {
