@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class ChocolateTest {
 
     @Test
-    void thePriceAndNameForChocolatehouldBeCorrect() {
+    void thePriceAndNameForChocolateShouldBeCorrect() {
         Chocolate beer = new Chocolate();
         assertEquals(beer.getName(), Chocolate.NAME);
         assertEquals(beer.getPrice(), Chocolate.PRICE);
