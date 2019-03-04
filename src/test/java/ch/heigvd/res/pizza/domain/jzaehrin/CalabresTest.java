@@ -1,7 +1,6 @@
 package ch.heigvd.res.pizza.domain.jzaehrin;
 
 import ch.heigvd.res.pizza.domain.Pizzaiolo;
-import ch.heigvd.res.pizza.domain.wasadigi.Margherita;
 import ch.heigvd.res.pizza.protocol.OrderRequest;
 import ch.heigvd.res.pizza.protocol.OrderResponse;
 import org.junit.jupiter.api.Test;
@@ -13,14 +12,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class CalabresTest {
 
   @Test
-  void thePriceAndNameForMargheritaShouldBeCorrect() {
+  void thePriceAndNameForCalabresShouldBeCorrect() {
     Calabres pizza = new Calabres();
     assertEquals(pizza.getName(), Margherita.NAME);
     assertEquals(pizza.getPrice(), Margherita.PRICE);
   }
 
   @Test
-  void aPizzaioloShouldAcceptAnOrderForMargherita() {
+  void aPizzaioloShouldAcceptAnOrderForCalabres() {
     Pizzaiolo mario = new Pizzaiolo();
     String productName = "ch.heigvd.res.pizza.domain.jzaehrin.Calabres";
     int numberOfPizzas = 2;
