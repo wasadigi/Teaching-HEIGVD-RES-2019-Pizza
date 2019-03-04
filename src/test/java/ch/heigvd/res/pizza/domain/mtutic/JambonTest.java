@@ -1,4 +1,4 @@
-package ch.heigvd.res.pizza.domain.wasadigi;
+package ch.heigvd.res.pizza.domain.mtutic;
 
 import ch.heigvd.res.pizza.domain.Pizzaiolo;
 import ch.heigvd.res.pizza.protocol.OrderRequest;
@@ -9,23 +9,23 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MargheritaTest {
+class JambonTest {
 
   @Test
-  void thePriceAndNameForMargheritaShouldBeCorrect() {
-    Margherita beer = new Margherita();
-    assertEquals(beer.getName(), Margherita.NAME);
-    assertEquals(beer.getPrice(), Margherita.PRICE);
+  void thePriceAndNameForJambonShouldBeCorrect() {
+    Jambon beer = new Jambon();
+    assertEquals(beer.getName(), Jambon.NAME);
+    assertEquals(beer.getPrice(), Jambon.PRICE);
   }
 
   @Test
-  void aPizzaioloShouldAcceptAnOrderForMargherita() {
+  void aPizzaioloShouldAcceptAnOrderForJambon() {
     Pizzaiolo mario = new Pizzaiolo();
-    String productName = "ch.heigvd.res.pizza.domain.wasadigi.Margherita";
+    String productName = "ch.heigvd.res.pizza.domain.mtutic.Jambon";
     int numberOfPizzas = 2;
     OrderRequest request = new OrderRequest(numberOfPizzas, productName);
     OrderResponse response = mario.order(request);
-    BigDecimal expectedTotalPrice = Margherita.PRICE.multiply(new BigDecimal(numberOfPizzas));
+    BigDecimal expectedTotalPrice = Jambon.PRICE.multiply(new BigDecimal(numberOfPizzas));
     assertEquals(expectedTotalPrice, response.getTotalPrice());
   }
 

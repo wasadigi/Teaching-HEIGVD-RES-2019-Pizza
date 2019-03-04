@@ -1,6 +1,7 @@
-package ch.heigvd.res.pizza.domain.wasadigi;
+package ch.heigvd.res.pizza.domain.linois;
 
 import ch.heigvd.res.pizza.domain.Pizzaiolo;
+import ch.heigvd.res.pizza.domain.linois.Margherita;
 import ch.heigvd.res.pizza.protocol.OrderRequest;
 import ch.heigvd.res.pizza.protocol.OrderResponse;
 import org.junit.jupiter.api.Test;
@@ -21,8 +22,8 @@ class MargheritaTest {
   @Test
   void aPizzaioloShouldAcceptAnOrderForMargherita() {
     Pizzaiolo mario = new Pizzaiolo();
-    String productName = "ch.heigvd.res.pizza.domain.wasadigi.Margherita";
-    int numberOfPizzas = 2;
+    String productName = "ch.heigvd.res.pizza.domain.linois.Margherita";
+    int numberOfPizzas = 4;
     OrderRequest request = new OrderRequest(numberOfPizzas, productName);
     OrderResponse response = mario.order(request);
     BigDecimal expectedTotalPrice = Margherita.PRICE.multiply(new BigDecimal(numberOfPizzas));
