@@ -12,6 +12,7 @@ public class HawaiTest {
     @Test
     void thePriceAndNameForHawaiShouldBeCorrect() {
         Hawai beer = new Hawai();
+
         assertEquals(beer.getName(), Hawai.NAME);
         assertEquals(beer.getPrice(), Hawai.PRICE);
     }
