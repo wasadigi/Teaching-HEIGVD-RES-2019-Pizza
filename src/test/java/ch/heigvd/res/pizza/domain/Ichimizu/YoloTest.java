@@ -22,7 +22,7 @@ class YoloTest {
   @Test
   void aPizzaioloShouldAcceptAnOrderForMargherita() {
     Pizzaiolo mario = new Pizzaiolo();
-    String productName = "ch.heigvd.res.pizza.domain.wasadigi.Yolo";
+    String productName = "ch.heigvd.res.pizza.domain.Ichimizu.Yolo";
     int numberOfPizzas = 2;
     OrderRequest request = new OrderRequest(numberOfPizzas, productName);
     OrderResponse response = mario.order(request);
