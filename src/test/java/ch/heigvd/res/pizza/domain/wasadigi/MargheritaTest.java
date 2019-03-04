@@ -19,7 +19,7 @@ class MargheritaTest {
   }
 
   @Test
-  void aBartenderShouldAcceptAnOrderForMargherita() {
+  void aPizzaioloShouldAcceptAnOrderForMargherita() {
     Pizzaiolo mario = new Pizzaiolo();
     String productName = "ch.heigvd.res.pizza.domain.wasadigi.Margherita";
     int numberOfPizzas = 2;
