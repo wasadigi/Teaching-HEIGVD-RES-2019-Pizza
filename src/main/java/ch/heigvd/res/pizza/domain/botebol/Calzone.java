@@ -1,12 +1,12 @@
-package ch.heigvd.res.pizza.domain.wasadigi;
+package ch.heigvd.res.pizza.domain.botebol;
 
 import ch.heigvd.res.pizza.domain.IProduct;
 
 import java.math.BigDecimal;
 
-public class Margherita implements IProduct {
+public class Calzone implements IProduct {
 
-  public final static String NAME = "Margherita";
+  public final static String NAME = "Calzone";
   public final static BigDecimal PRICE = new BigDecimal(16.0);
 
   @Override
