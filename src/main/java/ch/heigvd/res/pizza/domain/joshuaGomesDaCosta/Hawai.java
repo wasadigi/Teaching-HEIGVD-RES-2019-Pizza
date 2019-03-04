@@ -1,4 +1,4 @@
-package ch.heigvd.res.pizza.domain.joshuaGomesDaCosta.;
+package ch.heigvd.res.pizza.domain.joshuaGomesDaCosta;
 
 import ch.heigvd.res.pizza.domain.IProduct;
 
