@@ -14,8 +14,8 @@ class CalabresTest {
   @Test
   void thePriceAndNameForCalabresShouldBeCorrect() {
     Calabres pizza = new Calabres();
-    assertEquals(pizza.getName(), Margherita.NAME);
-    assertEquals(pizza.getPrice(), Margherita.PRICE);
+    assertEquals(pizza.getName(), Calabres.NAME);
+    assertEquals(pizza.getPrice(), Calabres.PRICE);
   }
 
   @Test
