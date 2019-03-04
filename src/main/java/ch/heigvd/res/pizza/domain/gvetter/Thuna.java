@@ -4,10 +4,10 @@ import ch.heigvd.res.pizza.domain.IProduct;
 
 import java.math.BigDecimal;
 
-public class Napolita implements IProduct {
+public class Thuna implements IProduct {
 
-    public final static String NAME = "Napolita";
-    public final static BigDecimal PRICE = new BigDecimal(13.2);
+    public final static String NAME = "Thuna";
+    public final static BigDecimal PRICE = new BigDecimal(15.2);
 
     @Override
     public String getName() {
