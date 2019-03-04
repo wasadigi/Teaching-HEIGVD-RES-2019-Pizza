@@ -1,6 +1,6 @@
 package ch.heigvd.res.pizza.domain.jzaerin;
 
-import ch.heigvd.res.pizza.domain.wasadigi.IProduct;
+import ch.heigvd.res.pizza.domain.IProduct;
 
 import java.math.BigDecimal;
 
